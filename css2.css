@@ -1,0 +1,29 @@
+.creator-header {
+  display: flex;
+  align-items: center; /* Vertically align the header content */
+  justify-content: space-between; /* Horizontally align the header content */
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.creator-nav {
+  display: flex;
+  flex-direction: column; /* Stack the buttons vertically */
+  align-items: flex-start; /* Place the buttons at the right side */
+}
+
+.creator-link {
+  margin: 20px;
+  padding: 20px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:300px;
+}
+
+.creator-link:hover {
+  background-color: #777;
+}
